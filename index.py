@@ -50,7 +50,7 @@ class VideoStreamWidget(object):
 
                 matchedIdxs = [i for (i, b) in enumerate(matches) if b]
                 counts = {}
-                #nu stiu ce dracu fac dar simt ca viata mea atarna de un fir de ata, informatica
+               
                 for i in matchedIdxs:
                     name = data["names"][i]
                     counts[name] = counts.get(name, 0) + 1
